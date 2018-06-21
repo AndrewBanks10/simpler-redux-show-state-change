@@ -1,0 +1,39 @@
+{
+    "name": "simpler-redux-show-state-change",
+    "displayName": "Open file where state change occured.",
+    "description": "Jump to a source code line where a simpler-redux state change occured.",
+    "version": "0.0.1",
+    "publisher": "andrew-banks",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.srLoadFile"
+    ],
+    "main": "./extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.srLoadFile",
+                "title": "Simpler-redux show state change"
+            }
+        ]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.6",
+        "eslint": "^4.6.1",
+        "@types/node": "^7.0.43",
+        "@types/mocha": "^2.2.42"
+    },
+    "dependencies": {
+        "copy-paste": "^1.3.0"
+    }
+}
