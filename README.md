@@ -1,4 +1,4 @@
-# simpler-redux-state-monitor
+# simpler-redux-show-state-change
 This extension will display a source file at the line number associated with a specified redux state change when used in conjunction with [simpler-redux-state-monitor](https://github.com/AndrewBanks10/simpler-redux-state-monitor).
 
 ## Requirements
